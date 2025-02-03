@@ -14,3 +14,17 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div style={{ textAlign: 'center', padding: '50px' }}>
+      <h1>Welcome to the Lysio Parents' Portal</h1>
+      <p>Select a section from the navigation to get started.</p>
+    </div>
+  );
+}
+
+export default App;
